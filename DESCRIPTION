@@ -1,0 +1,11 @@
+Package: CPcor
+Type: Package
+Title: Change point detection in networks
+Version: 1.0
+Date: 2015-05-28
+Author: Ian Barnett
+Maintainer: Ian Barnett <ianjamesbarnett@gmail.com>
+Description: When correlation networks change over time, this is manifested by changes in the correlations between nodes. The sieve bootstrap is used to resample and construct the null distribution for the matrix norm of the difference between the empirical correlation matrix before and after a potential change point. 
+License: GPL-2
+Depends: mvtnorm, Matrix
+Packaged: 2017-05-29 03:24:20 UTC; Ian
